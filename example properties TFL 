@@ -1,0 +1,63 @@
+$type
+:
+"Tfl.Api.Presentation.Entities.Prediction, Tfl.Api.Presentation.Entities"
+bearing
+:
+""
+currentLocation
+:
+""
+destinationName
+:
+"London Liverpool Street Rail Station"
+destinationNaptanId
+:
+"910GLIVST"
+direction
+:
+"inbound"
+expectedArrival
+:
+"2018-02-11T14:46:53Z"
+id
+:
+"140615608"
+lineId
+:
+"london-overground"
+lineName
+:
+"London Overground"
+modeName
+:
+"overground"
+naptanId
+:
+"910GLONFLDS"
+operationType
+:
+1
+platformName
+:
+"Platform 1"
+stationName
+:
+"London Fields Rail Station"
+timeToLive
+:
+"2018-02-11T14:46:53Z"
+timeToStation
+:
+578
+timestamp
+:
+"2018-02-11T14:37:15Z"
+timing
+:
+{$type: "Tfl.Api.Presentation.Entities.PredictionTiming, Tfl.Api.Presentation.Entities", countdownServerAdjustment: "00:00:00", source: "0001-01-01T00:00:00", insert: "0001-01-01T00:00:00", read: "0001-01-01T00:00:00Z", …}
+towards
+:
+""
+vehicleId
+:
+"J9w8HxgEoKJ5oQpX3iDcwQ"

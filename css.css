@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+#number1 {
+  background-color: black;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  display: flex;
+  margin-right: auto;
+  font-size: 20pt;
+  color: #FFA500;
+  font-family: 'Codystar', cursive;
+}
+
+#number2 {
+  background-color: black;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20pt;
+  color: #FFA500;
+  font-family: 'Codystar', cursive;
+
+
+}
+#holder {
+  height: 70%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#josh {
+  font-family: 'Sacramento', cursive;
+    color: #FFA500;
+    font-size: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+    
+      text-align: center;
+}
+
+#title {
+  background-color: black;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40pt;
+  color: #FFA500;
+  font-family: 'Codystar', cursive;
+}
