@@ -16,7 +16,7 @@ window.onload = function what() {
     }
     console.log(expectedTrains);
 
-    // sort in assending order by expected time
+    // sort in ascending order by expected time
     expectedTrains.sort(function(a, b){return a.expected-b.expected});
     console.log(expectedTrains);
 
