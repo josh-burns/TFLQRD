@@ -5,13 +5,29 @@ body {
   margin: auto;
 }
 
+@font-face{
+
+    font-family: 'vms';
+    src: url('../fonts/vms.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+
+    font-family: 'transportheavy';
+    src: url('../fonts/transport heavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 #title {
 	position: absolute;
 		left: 50%;
 		transform: translate(-50%, 10%);
-		
-  font-family: 'Codystar', cursive;
-    color: #FFA500;  
+
+  font-family: 'transportheavy';
+    color: #FFA500;
     font-size: 30pt;
 }
 
@@ -21,7 +37,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-  font-family: 'Codystar', cursive;
+  font-family: 'vms', cursive;
     color: #FFA500;
 	  font-size: 20pt;
 }
@@ -31,7 +47,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, -10%);
-  
+
   font-family: 'Sacramento', cursive;
     color: #FFA500;
     font-size: 20pt;

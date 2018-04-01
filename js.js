@@ -5,7 +5,7 @@ window.onload = function what() {
     var expectedTrains = [];
     for (var i = 0; i < 9; i++) {
       // figuring out timestamp, time expected of train, and then difference, then converting to rounded minutes
-      var nextTrain = data[i].destinationName;
+      var nextTrain = data[i].destinationName.toLowerCase();
       var platform = data[i].platformName;
       var timeStamp = new Date(data[i].timestamp);
       var expected = new Date(data[i].expectedArrival);
